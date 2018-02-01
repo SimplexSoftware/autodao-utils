@@ -1,4 +1,4 @@
-package entity;
+package ru.simplex_software.entity;
 
 import net.sf.autodao.PersistentEntity;
 import org.hibernate.Hibernate;
