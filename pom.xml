@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>ru.simplex_software</groupId>
+    <artifactId>autodao-utils</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+
+    <dependencies>
+
+        <!-- Hibernate -->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>5.0.4.Final</version>
+        </dependency>
+
+        <!-- JPA 2.0 -->
+        <dependency>
+            <groupId>org.hibernate.javax.persistence</groupId>
+            <artifactId>hibernate-jpa-2.0-api</artifactId>
+            <version>1.0.1.Final</version>
+        </dependency>
+
+        <!-- AutoDAO -->
+        <dependency>
+            <groupId>net.sf.autodao</groupId>
+            <artifactId>autodao</artifactId>
+            <version>0.12.2</version>
+        </dependency>
+
+
+
+    </dependencies>
+
+
+</project>
